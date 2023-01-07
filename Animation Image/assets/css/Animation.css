@@ -1,0 +1,81 @@
+body
+{
+    margin: 0;
+}
+nav
+{
+    
+    background-color: black;
+}  
+h1
+{
+    color: rgb(169, 214, 7);
+    
+}
+.flex-container
+{
+    display: flex;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 2s;
+}
+a:hover
+{
+    background-color: rgb(243, 226, 226);
+    color: rgb(14, 3, 3);
+}
+.flex-item1
+{
+ flex: 20%;
+ background-color: rgb(223, 19, 19);
+}
+.flex-item2
+{
+flex: 80%;
+
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    display: inline;
+    margin-left: 40px;
+    
+}
+.slider 
+{
+      
+    height: 600px;
+    background-image: url(assets/images/1.webp);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    margin-top: 25px;
+
+   animation-name: animate;
+   animation-duration: 1s;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   background-position: center;
+}
+
+@keyframes animate{
+     from {
+        background-image: url(assets/images/2.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+        to 
+        { background-image: url(assets/images/human-skull-wooden-table-with-dark-background_9083-8111.webp);
+            background-repeat: no-repeat;
+            background-size: contain;}
+
+ }
+

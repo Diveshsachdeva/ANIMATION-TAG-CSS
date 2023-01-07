@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: rgb(7, 10, 10);
+}
+
+.div1 {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(yellow, rgb(119, 114, 116));
+    border-radius: 50%;
+    position: absolute;
+     margin-left: 500px;
+    rotate: 25px;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+
+    0% {
+        left: 0;
+        top: 0;
+        background-image: linear-gradient(rgb(22, 22, 19), rgb(240, 240, 245));
+    }
+
+    25% {
+        left: 400px;
+        top: 0;
+        background-image: linear-gradient(rgb(45, 51, 45), rgb(243, 237, 238));
+        
+    }
+
+    50% {
+        left: 400px;
+        top: 400px;
+        background-image: linear-gradient(rgb(252, 250, 247), rgb(239, 239, 240))
+    }
+
+    75% {
+        left: 0px;
+        top: 400px;
+        background-image: linear-gradient(rgb(248, 253, 255), rgb(241, 229, 235))
+    }
+
+    100% {
+        left: 0px;
+        top: 0;
+        background-image: linear-gradient(rgb(253, 252, 249), rgb(248, 246, 242))
+    }
+}
+.div2 {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(rgb(253,rgb(252, 248, 250)9, 114, 116));
+    border-radius: 5%;
+    position: absolute;
+     margin-left: 500px;
+    
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes divesh {
+
+    0% {
+        left: 0;
+        top: 0;
+        background-image: linear-gradient(yellow, blue);
+    }
+
+    25% {
+        left: 400px;
+        top: 0;
+        background-image: linear-gradient(green, pink);
+
+    }
+
+    50% {
+        left: 400px;
+        top: 400px;
+        background-image: linear-gradient(orange, darkblue)
+    }
+
+    75% {
+        left: 0px;
+        top: 400px;
+        background-image: linear-gradient(rgb(32, 164, 216), rgb(196, 23, 109))
+    }
+
+    100% {
+        left: 0px;
+        top: 0;
+        background-image: linear-gradient(rgb(15, 11, 4), rgb(230, 172, 47))
+    }
+}

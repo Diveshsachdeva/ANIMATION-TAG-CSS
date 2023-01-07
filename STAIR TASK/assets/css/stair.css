@@ -1,0 +1,131 @@
+body
+{
+    margin: 0;
+    background-color: brown;
+}
+
+
+.div1 {
+    height: 130px;
+    width: 400px;
+   background-image: linear-gradient(white);
+    position: absolute;
+    border-style:dashed;
+    rotate: 25px;
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+
+    0% {
+        left: 20px;
+        top: 0;
+        background-color:white;
+       
+        }
+
+    5% {
+        left: 200px;
+        top: 0;
+        background-color: white;
+
+    }
+    10%
+    {
+        top: 200px;
+        left: 200px;
+        background-color: white;
+    }
+    15%
+    {
+        top: 200px;
+        left: 300px;
+        background-color: white;
+    }
+     20%
+    {
+     left: 300px;
+     top: 300px;
+     background-color: white;
+    }
+    25%
+    {
+        left: 500px;
+        top: 300px;
+        background-color: white;
+    }
+    30%
+    {
+        top: 400px;
+        left: 500px;
+        background-color: white;
+    }
+    35%
+    {
+        left:600px;
+        top: 400px;
+        background-color: white;
+    
+    }
+    40%
+     {
+        top: 500px; 
+        left: 600px;
+        background-color: white;
+     }
+     45%
+     {
+        left:700px;
+        top: 500px;
+        background-color: white;
+     }
+     50%
+     {
+        top: 600px;
+        left: 700px;
+        background-color:white;
+     }
+     55%
+     {
+        left:800px;
+        top: 600px;
+        background-color: white;
+     }
+     60%
+     {
+        top: 700px;
+        left: 800px;
+        background-color:white;
+     }
+     65%
+     {
+        top: 700px;
+        left: 900px;
+        background-color: white;
+     }
+
+     70%
+     {
+        top: 800px;
+        left: 900px;
+        background-color: white
+     }
+     75%
+     {
+        top: 800px;
+        left: 1000px;
+        background-color: white
+     }
+
+    
+    
+    
+
+
+
+}
+
+
